@@ -25,7 +25,7 @@ Recently I do a course of CI/CD with Jenkins, now I propose to do a repository w
 ### Fase 2 — First pipelines
 
 - [x] Basic declarative pipeline (stages: build, test, deploy)
-- [ ] Pipeline as Code: Jenkinsfile versioned in Git
+- [x] Pipeline as Code: Jenkinsfile versioned in Git
 - [ ] Environment variables in pipelines
 - [ ] Credentials and secrets management
 - [ ] Artifacts: save and publish build results
