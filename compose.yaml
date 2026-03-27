@@ -1,0 +1,12 @@
+services:
+  jenkins:
+    image: jenkins/jenkins:2.541.3-jdk21
+    restart: on-failure
+    container_name: jenkinsServer
+    ports:
+      - "8080:8080"
+    volumes:
+      - jenkins_volume:/var/jenkins_home
+  
+volumes:
+    jenkins_volume:
