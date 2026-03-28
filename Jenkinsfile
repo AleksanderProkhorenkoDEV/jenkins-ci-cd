@@ -4,7 +4,7 @@ pipeline{
     environment {
         GREETING="Hello i am a greetin"
         API_KEY="http:/foo/aws_api_key"
-        PASSWORD = credentials('password')
+        PASSWORD = credentials('86f89607-efa3-4c73-b6b6-118dc6ffdbb0')
     }
 
     stages {
