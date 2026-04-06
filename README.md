@@ -31,9 +31,9 @@ Recently I do a course of CI/CD with Jenkins, now I propose to do a repository w
 
 ### Fase 3 — Docker agents
 
-- [ ] Configure Docker agents in Jenkins
-- [ ] Pipeline with Node.js agent
-- [ ] Pipeline with Python agent
+- [x] Configure Docker agents in Jenkins
+- [x] Pipeline with Node.js agent
+- [x] Pipeline with Python agent
 - [ ] Pipeline with Maven (Java) agent
 
 ### Fase 4 — Git integration
